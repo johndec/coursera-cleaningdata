@@ -37,7 +37,6 @@ combineddata <- rbind(traindata, testdata)
 ##############################
 
 reduceddata <- combineddata[,-grep("std|mean", names(combineddata))]
-#meanstd <- combineddata[,grep("std|mean", names(combineddata))]
 
 ##############################
 # 3. Uses descriptive activity names to name the activities in the data set
