@@ -2,7 +2,7 @@
 # John DeCuir
 
 require(dplyr)
-require(reshape)
+require(reshape2)
 
 ##############################
 # 1. Merges the training and the test sets to create one data set.
